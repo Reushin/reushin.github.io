@@ -1,0 +1,153 @@
+@media all and (max-width: 1000px){
+    .header {
+        padding: 20px 20px 10px 20px;
+    }
+
+        
+    .header ul{
+        font-size: 20px;
+    }
+
+    .top-wrapper h1{
+        font-size: 20px;
+    }
+    
+    .btn-wrapper a {
+        font-size: 17px;
+    }
+    .lesson {
+        width: 48%;
+        padding: 20px;
+        margin: 7px;
+        color: white;
+    }
+
+    .lesson-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px 50px 0px;
+    }
+    .lessons {
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .lesson-wrapper h4 {
+        font-size: 19px;
+    }
+
+    .lesson-wrapper p {
+        font-size: 18px;
+    }
+
+    .lesson-wrapper a {
+        font-size: 17px;
+    }
+
+    .footer h5 {
+        font-size: 18px;
+    }
+
+    .footer.one {
+        flex: 3;
+        margin: 15px 0px;
+    }
+
+    .footer.two {
+        justify-content: center;
+        font-size: 17px; 
+        margin: 35px 0px 10px 0px;
+    }
+
+    .footer.three {
+        justify-content: center;
+        font-size: 17px;
+        margin: 35px 0px 10px 20px;
+    }
+}
+
+
+
+@media all and (max-width: 670px){
+    .header {
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .header ul{
+        font-size: 17px;
+    }
+
+    .top-wrapper h1{
+        font-size: 17px;
+        line-height: 1.67;
+        padding: 20px 9px;
+    }
+    
+    .btn-wrapper a {
+        font-size: 15px;
+    }
+
+    .lesson-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px 50px 0px;
+        line-height: 1.5;
+    }
+
+    .lesson {
+        width: 100%;
+        padding: auto;
+        margin: 15px;
+    }
+
+    .lessons {
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .lesson-wrapper h4 {
+        font-size: 18px;
+    }
+
+    .lesson-wrapper p {
+        font-size: 17px;
+    }
+
+    .lesson-wrapper a {
+        font-size: 16px;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .footer img{
+        width: 200px;
+        height: 50px;
+        margin: 0px 90px;
+    }
+
+    .footer h5 {
+        font-size: 18px;
+    }
+
+    .footer.one {
+        margin: 15px 15px;
+        border: 1px solid salmon;
+    }
+
+    .footer.two {
+        font-size: 16px;
+        margin: 0px 30px 40px 40px;
+        text-align: center;
+        }
+
+    .footer.three {
+        font-size: 16px;
+        margin: 0px 0px 40px 0px;
+        text-align: center;
+    }
+}
+

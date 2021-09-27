@@ -1,0 +1,211 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+
+
+.container{
+  max-width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.header {
+  padding: 20px 90px 10px 90px;
+}
+
+.header .logo {
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+.header ul {
+  list-style: none;
+  padding: 15px 0;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+.header ul a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.header ul a:hover {
+  color: rgb(64, 105, 240);
+}
+
+.top-wrapper {
+  padding: 90px 0 100px 0;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.top-wrapper h1 {
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.btn-wrapper {
+  background-color: rgb(64, 105, 240);
+  padding: 8px 12px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn-wrapper:hover {
+  opacity: 1;
+}
+
+.btn-wrapper a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+.lesson-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 80px 50px 80px;
+  line-height: 2;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.lessons {
+  padding: 30px 0 0 50px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.lesson {
+  width: 30%;
+  padding: 20px;
+  margin: 15px;
+  color: white;
+}
+
+.lesson.one {
+  background-color: rgb(64, 105, 240);
+}
+
+.lesson.two {
+background-color: rgb(64, 105, 240);
+}
+
+.lesson.three {
+  background-color: rgb(64, 105, 240);
+}
+
+.lesson.four {
+  background-color: rgb(64, 105, 240);
+}
+
+.lesson.five {
+  background-color: rgb(64, 105, 240);
+}
+
+.lesson-wrapper h4 {
+  text-shadow: 2px 2px 2px black;
+}
+
+.lesson-wrapper a {
+  text-align: center;
+  display: block;
+  color: white;
+  
+}
+
+.lesson-wrapper a:active {
+  color:blue;
+}
+
+.footer {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer img{
+  width: 200px;
+  height: 50px;
+}
+
+.footer li {
+  list-style: none;
+
+}
+
+.footer h5 {
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer.one {
+  flex: 3;
+  margin: 15px 50px;
+}
+
+.footer.two {
+  flex: 0.5;
+  justify-content: center;
+  font-size: 15px;
+  margin: 35px 0px 50px 0px;
+  line-height: 1.7;
+}
+
+.footer.two a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer.two a:hover {
+  color: blue;
+}
+
+.footer.three {
+  flex: 1;
+  justify-content: center;
+  font-size: 15px;
+  margin: 35px 80px 50px 0px;
+  line-height: 1.7;
+}
+
+.footer.three a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer.three a:hover {
+  color: blue;
+}
